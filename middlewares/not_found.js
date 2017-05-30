@@ -1,5 +1,5 @@
-import Promise from 'bluebird';
-import R from 'ramda';
+const R = require('ramda');
+const Promise = require('bluebird');
 
 const notFoundMiddleware = function(options) {
   if (options.response) {

@@ -1,5 +1,5 @@
-import R from 'ramda';
-import Promise from 'bluebird';
+const R = require('ramda');
+const Promise = require('bluebird');
 
 const echoMiddleware = function(options) {
   return Promise.resolve(

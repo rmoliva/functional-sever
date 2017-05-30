@@ -1,5 +1,5 @@
-import R from 'ramda';
-import gex from 'gex';
+const R = require('ramda');
+const Promise = require('bluebird');
 
 const sayHelloMiddleware = function(options) {
   return Promise.resolve(

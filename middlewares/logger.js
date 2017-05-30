@@ -1,4 +1,5 @@
-import Promise from 'bluebird';
+const R = require('ramda');
+const Promise = require('bluebird');
 
 const loggerMiddleware = function(options) {
   console.log(`-> ${options.request.method} - ${options.request.url}`);
